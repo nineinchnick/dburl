@@ -88,6 +88,7 @@ func BaseSchemes() []Scheme {
 		{"maxcompute", GenSchemeTruncate, 0, false, []string{"mc"}, ""},
 		{"moderncsqlite", GenOpaque, 0, true, []string{"mq", "modernsqlite"}, ""},
 		{"n1ql", GenFromURL("http://localhost:9000/"), 0, false, []string{"couchbase"}, ""},
+		{"nzgo", GenPostgres, ProtoUnix, false, []string{"nz", "netezza"}, ""},
 		{"odbc", GenODBC, ProtoAny, false, nil, ""},
 		{"oleodbc", GenOLEODBC, ProtoAny, false, []string{"oo", "ole"}, "adodb"},
 		{"presto", GenPresto, 0, false, []string{"prestodb", "prestos", "prs", "prestodbs"}, ""},

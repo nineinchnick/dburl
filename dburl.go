@@ -105,6 +105,7 @@
 //	 Google Spanner (spanner)        | sp
 //	 Microsoft ADODB (adodb)         | ad, ado
 //	 ModernC SQLite (moderncsqlite)  | mq, modernsqlite
+//	 IBM Netezza (nzgo)              | nz, nzgo
 //	 ODBC (odbc)                     | od
 //	 OLE ODBC (oleodbc)              | oo, ole, oleodbc [adodb]
 //	 Presto (presto)                 | pr, prestodb, prestos, prs, prestodbs
@@ -161,6 +162,7 @@
 //	 Google Spanner (spanner)        | github.com/rakyll/go-sql-driver-spanner
 //	 Microsoft ADODB (adodb)         | github.com/mattn/go-adodb
 //	 ModernC SQLite (moderncsqlite)  | modernc.org/sqlite
+//	 IBM Netezza (nzgo)              | github.com/IBM/nzgo
 //	 ODBC (odbc)                     | github.com/alexbrainman/odbc
 //	 OLE ODBC (oleodbc)*             | github.com/mattn/go-adodb
 //	 Presto (presto)                 | github.com/prestodb/presto-go-client/presto
